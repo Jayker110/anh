@@ -3,7 +3,7 @@ using namespace std;
 
 double calculateFare(double distance) {
     double baseFare = 1800.0;    // Base fare in KHR
-    double ratePerKm = 1200.0;   // Rate per kilometer in KHR
+    double ratePerKm = 1200.0000000000;   // Rate per kilometer in KHR
     double minfare = 3000.0;
 	if (distance < 1.0){
 		return minfare;
